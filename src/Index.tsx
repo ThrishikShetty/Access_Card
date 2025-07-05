@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Scanner from './Scanner';
+import Home from './Home';
 
 
 
@@ -29,7 +30,7 @@ const Index = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h1 className='text-red-300 text-9xl'>WELCOME</h1>
+          <Home/>
           </motion.div>
         )}
       </AnimatePresence>

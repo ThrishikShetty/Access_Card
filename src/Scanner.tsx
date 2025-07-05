@@ -184,7 +184,7 @@ const Scanner = ({ onAccessGranted }: ScannerProps) => {
                     />
                     <div>
                       <div className="text-lg font-bold">ACCESS GRANTED</div>
-                      <div className="text-sm">WELCOME JOHN DOE</div>
+                      <div className="text-sm">WELCOME TO HAMSI CODE</div>
                     </div>
                   </motion.div>
                 )}
@@ -250,7 +250,7 @@ const Scanner = ({ onAccessGranted }: ScannerProps) => {
             <div className="flex justify-between items-start">
               <div>
                 <div className="text-xs font-bold opacity-80">PORTFOLIO ACCESS</div>
-                <div className="text-lg font-bold mt-1">JOHN DOE</div>
+                <div className="text-lg font-bold mt-1">HAMSI CODE</div>
                 <div className="text-xs opacity-70">SOFTWARE DEVELOPER</div>
               </div>
               <motion.div 
